@@ -1,0 +1,103 @@
+#################
+Installation
+Setting up AWS account
+Authentication and Authorization
+Create User for AWS Account
+Launch First Virtual Machine through Terraform
+Terraform Code - First EC2 Instance
+Important Security Pointer
+Resource and Providers
+Provider Tiers
+Create GitHub Repository through Terraform
+Terraform Destroy
+Understanding Terraform State files
+Understanding Desired & Current States (NEW)
+Challenges with the current state on computed values (NEW)
+Terraform Provider Versioning
+Terraform Refresh
+AWS Provider - Authentication Configuration
+############################
+Cross Resource Attribute References
+Cross Reference Resource Attributes Practical
+Output Values
+Terraform Variables
+Approaches for Variable Assignment
+Data Types for Variables
+Fetching Data from Maps and List in Variable
+Count and Count Index
+Conditional Expressions
+Local Values
+Terraform Functions
+Data Sources
+Note - Filters in Data Sources
+Debugging in Terraform
+Terraform Format
+Validating Terraform Configuration Files
+Load Order & Semantics
+Dynamic Blocks
+Tainting Resources
+Splat Expressions
+Terraform Graph
+Saving Terraform Plan to File
+Terraform Output
+Terraform Settings
+Dealing with Large Infrastructure
+Zipmap Function
+Comments in Terraform
+Resource Behavior and Meta Arguments
+Meta-Argument - LifeCycle
+LifeCycle Meta-Argument - Create Before Destroy
+LifeCycle Meta-Argument - Prevent Destroy
+LifeCycle Meta-Argument - Ignore Changes
+Challenges with Count Meta-Argument
+Data Type - SET
+for_each in Terraform
+#####################
+Understanding Provisioners in Terraform
+Types of Provisioners
+Implementing remote-exec provisioners
+Implementing local-exec provisioners
+Creation-Time & Destroy-Time Provisioners
+Failure Behavior for Provisioners
+#####################
+Understanding DRY principle
+Implementing EC2 module with Terraform
+Variables and Terraform Modules
+Using Locals with Modules
+Referencing Module Outputs
+Terraform Registry
+Requirement for Publishing Modules in Terraform Registry
+Terraform Workspace
+Implementing Terraform Workspace
+######################
+Integrating with GIT for team management
+Security Challenges in Commiting TFState to GIT
+Module Sources in Terraform
+Terraform and .gitignore
+Terraform Backends
+Implementing S3 Backend
+State File locking
+Integrating DynamoDB with S3 for state locking
+Terraform State Management
+Cross- Project Collaboration using Remote State
+Implementing Remote States Connections
+Terraform Import Practical - NEW
+#####################################
+Terraform Provider UseCase - Resources in Multiple Regions
+Handling Multiple AWS Profiles with Terraform Providers
+Note - STS
+Terraform & Assume Role with AWS STS
+Sensitive Parameter
+Note - HashiCorp Vault
+Overview of HashiCorp Vault
+Terraform and Vault Integration
+Dependency Lock File
+#####################
+Overview of Terraform Cloud
+Creating Terraform Cloud Account
+Creating Infrastructure with Terraform Cloud
+Overview of Sentinel
+Overview of Remote Backends
+Implementing Remote Backend Operations
+Air Gapped Environments
+#############################
