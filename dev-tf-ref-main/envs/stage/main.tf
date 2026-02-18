@@ -50,11 +50,11 @@ module "eks" {
   eks_min_size            = var.eks_min_size      #1
   #pub_sub_names           = module.vpc.pub_sub_names[*]
   #priv_sub_names          = module.vpc.priv_sub_names[*]
-  #pub_sub_names = ["subnet-0f3b0d01a275f0250","subnet-0895d7b63609120af"]
-  #priv_sub_names = ["subnet-0eb6c72eaa3bce2dc","subnet-01844355bd3b8abbf"]
+  #pub_sub_names = ["subnet-123456","subnet-644367"]
+  #priv_sub_names = ["subnet-45971288","subnet-056461231498765164"]
   sg_rules_eks_additional = var.sg_rules_eks_additional
   #vpc_id = module.vpc.vpc_id
-  #vpc_id = ["vpc-08fcbad31b564128e"]
+  #vpc_id = ["vpc-abcdefghijk"]
   sg_info = var.sg_info
   sg_name = var.sg_name
   node_disk_size = var.node_disk_size
